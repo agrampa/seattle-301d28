@@ -7,18 +7,18 @@ $('nav a').on('click', function() {
   //gives us 'delegation' or 'attributes'
   console.log('$where to go', $whereToGo);
   $('.tab-content').hide();
-  
+
   $('#' + $whereToGo).fadeIn(750)
 })
 
 //event logger
 function logTarget() {
-  console.log('this', this);
-  console.log('$(this)', $(this));
+  // console.log('this', this);
+  // console.log('$(this)', $(this));
 
   let $target = $(this).text();
   let $newFeedback = $('#feedback p:first-child').clone();
-
+  // console.log($target);
   $newFeedback.text('You clicked on ' + $target);
   $('#feedback').append($newFeedback);
 }
