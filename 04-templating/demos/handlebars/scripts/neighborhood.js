@@ -11,17 +11,17 @@ function Neighborhood (rawDataObject) {
 
 Neighborhood.prototype.toHtml = function() {
   // 1. Get the template from the HTML document
-
+  let template = $('#neighborhood-template').html();
   // 2. Use Handlebars to "compile" the HTML, returns a function
-
+  let templateRender = Handlebars.compile(template);
   // 3. Do not forget to return the HTML from this method
-
+  return templateRender(this);
 };
 
 neighborhoodDataSet.forEach(function(neighborhoodObject) {
   neighborhoods.push(new Neighborhood(neighborhoodObject));
 });
 
-neighborhoods.forEach(function(ourNewNeighborhoodObject){
+neighborhoods.forEach(function(ourNewNeighborhoodObject) {
   $('#neighborhoods').append(ourNewNeighborhoodObject.toHtml());
 });
