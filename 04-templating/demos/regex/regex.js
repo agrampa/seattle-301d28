@@ -33,4 +33,4 @@ Validate phone numbers
 
 Validate email addresses
 allie@codefellows.com           \w+@\w+\.\w+
-allie.grampa@codefelllows.com   \w+\.?\w+?@\w+.\w+
+allie.grampa@codefelllows.com   \w+\.?\w+?@\w+\.\w+
