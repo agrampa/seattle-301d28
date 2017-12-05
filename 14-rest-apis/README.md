@@ -27,4 +27,3 @@ ABCD:
 
 - ["How I Explained REST to My Brother*"](https://gist.github.com/brookr/5977550)
 - [https://developer.github.com/guides/getting-started](https://developer.github.com/guides/getting-started/)
-- [What is OAuth? (watch videos at the bottom*)](http://searchsoa.techtarget.com/definition/OAuth)
