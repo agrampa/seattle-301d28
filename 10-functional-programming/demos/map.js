@@ -20,7 +20,8 @@ const doctors = [
 let mappedDocs = doctors.map(doctor => {
   return {
     number: doctor.number,
-    name: doctor.actor.split(' '),
+    first_name: doctor.actor.split(' ')[0],
+    last_name: doctor.actor.split(' ')[1],
     yearsPlayed: (doctor.end - doctor.begin) + 1
   }
 }) // => Returns a new array of doctors; each new object has a number, name, and yearsPlayed prop with pass-thru or new values
