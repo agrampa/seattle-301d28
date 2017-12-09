@@ -31,7 +31,8 @@ console.log(mappedDocs)
 let anotherMappedDocs = doctors.map(doctor => {
   return {
     number: doctor.number,
-    name: doctor.actor.split(' '),
+    first_name: doctor.actor.split(' ')[0],
+    last_name: doctor.actor.split(' ')[1],
     yearsPlayed: (doctor.end - doctor.begin)
   }
 }).filter(doctor => doctor.yearsPlayed < 5) // Newly mapped array is returned from map, and filter is called on that new array
