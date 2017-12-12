@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>UI Custom Form Elements!</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico in the root directory -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+
+  <h1>UI Custom Form Elements!</h1>
+
+  <form class="">
+
+
+
+    <div class="item">
+      text input
+      <br>
+      <input name="firstname" type="text">
+
+    </div>
+    <div class="item">
+      text input w/ validation error
+      <br>
+
+      <input class="text-box" name="firstname" type="text" required>
+      <br>
+      <label class="validation-error"></label>
+    </div>
+    <div class="item">
+
+      select box
+      <br>
+
+      <div class="styled-selection">
+        <div class="select-header"><span>Please select an option...</span>
+          <div class="drop"></div>
+        </div>
+        <div class="children" style="display:none">
+          <div class="selection">selection one</div>
+          <div class="selection">selection two</div>
+          <div class="selection">selection three</div>
+          <div class="selection">selection four</div>
+
+        </div>
+      </div>
+      <div class="select-style">
+        <select value="acsdcds">
+    <!-- <option value="volvo" disabled>please select an option...</option> -->
+    <option value="" disabled selected hidden>Please Choose...</option>
+    <option value="0">Option 1</option>
+    <option value="1">Option 2</option>
+    <option value="2">Option 3</option>
+    <option value="3">Option 4</option>
+  </select>
+      </div>
+
+    </div>
+
+
+    <div class="item">
+      checkbox
+      <br>
+      <input type="checkbox" id="c1" name="cc" />
+      <label for="c1"><span></span></label>
+      <input type="checkbox" id="c2" name="cc" checked/>
+      <label for="c2"><span></span></label>
+
+    </div>
+    <div class="item">
+      radio
+      <br>
+      <input type="radio" id="r1" name="rr" />
+      <label for="r1"><span></span></label>
+      <input type="radio" id="r2" name="rr" checked/>
+      <label for="r2"><span></span></label>
+    </div>
+    <div class="item">
+      buttons (try hovering them!!)
+      <br>
+      <button type="button" name="button">submit</button><button class="dark" type="button" name="button">submit</button>
+    </div>
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $('.select-header').click(() => {
+      $('.children').slideToggle();
+      $('.drop').toggleClass('up');
+
+    });
+
+    $('.selection').click(function() {
+
+      $('select').val($(this).index());
+      $('.children').slideToggle()
+      $('.select-header span').text($(this).text());
+      $('.drop').toggleClass('up');
+
+    });
+  </script>
+
+
+
+</body>
+
+</html>
