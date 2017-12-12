@@ -33,7 +33,8 @@ let newArr = doctors.reduce((acc, curr) => {
   if (curr.number > 10) {
     acc.push({
       number: curr.number,
-      name: curr.actor.split(' '),
+      first_name: curr.actor.split(' ')[0],
+      last_name: curr.actor.split(' ')[1],
       yearsPlayed: (curr.end - curr.begin) + 1
     })
   }
