@@ -5,8 +5,17 @@
 
 - The exam is open-book, open-Google, open-Stack_Overflow, whatever resources you want to use. The exam is designed to be, in spots, a little bit beyond what has been covered. The intent in those spots is to measure resourcefulness and ability to adapt and figure something out. Give yourselves adequate time for the exam: 1-2 hours depending if you are fast or slow on these kinds of things.
 
-## Daily Plan
+## Previous 301 Projects
 
+- [Seattle Field Finder](https://field-finder.herokuapp.com/)
+- [The 4th Bling](https://bling-4th-the-money.herokuapp.com/)
+- [Trivia Ninja](https://trivia-ninja.herokuapp.com/)
+- [Meteorite Mapper](https://meteorite-mapper.herokuapp.com/)
+- [Price I$ Right Parking](http://priceisrightparking.herokuapp.com/)
+- [Barkrawl](https://barkrawl.herokuapp.com/)
+- [Fremont Patroller](https://fremont-bike-patroller.herokuapp.com/)
+- [DroneStrike](https://whendronesattack.herokuapp.com/)
+- [Crime City](http://crime-city.herokuapp.com/)
 
 ## Learning Objectives
 <!--
