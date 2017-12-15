@@ -15,7 +15,11 @@
 - [Barkrawl](https://barkrawl.herokuapp.com/)
 - [Fremont Patroller](https://fremont-bike-patroller.herokuapp.com/)
 - [DroneStrike](https://whendronesattack.herokuapp.com/)
+- [Be Marvelo.Us](https://be-marvelous.herokuapp.com/events)
 - [Crime City](http://crime-city.herokuapp.com/)
+- [Travel Wild](https://team-wildlife.github.io/wildlife-client/)
+- [ROASTful](https://roastful.github.io/ROASTful-Client/)
+- [Pump Finder](https://pumpfinder.herokuapp.com/)
 
 ## Learning Objectives
 <!--
