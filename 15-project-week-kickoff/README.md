@@ -16,7 +16,7 @@
 - [Fremont Patroller](https://fremont-bike-patroller.herokuapp.com/)
 - [DroneStrike](https://whendronesattack.herokuapp.com/)
 - [Crime City](http://crime-city.herokuapp.com/)
-- [Be Marvelo.Us](https://be-marvelous.herokuapp.com/events)
+- [Be Marvelo.Us](https://be-marvelous.herokuapp.com/)
 - [Nerf This!](http://nerf-this.herokuapp.com/)
 - [Travel Wild](https://team-wildlife.github.io/wildlife-client/)
 - [ROASTful](https://roastful.github.io/ROASTful-Client/)
